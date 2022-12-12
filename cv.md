@@ -19,3 +19,9 @@ My strong point is the desire to learn something new. I am convinced that the ab
 * VS Code
 * Adobe Photoshop
 
+##Code example:
+```
+function multiply(a, b){
+    return a * b
+}
+```
