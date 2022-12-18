@@ -46,22 +46,34 @@ html {
     right: 70px;
     top: 15px;
 }
-.header h1 {
+/* .header h1 {
     display: inline;
     position: relative;
     top: 50px;
     left: 60px;
     font-size: 50px;
     text-shadow: 1px 1px 1px #BCBCBC;
+} */
+.my_card_flex {
+    display: flex;
+    padding: 16px 50px;
 }
-h1::before {
-    content: "";
-    position: absolute;
-    left: 300px;
-    bottom: 1px;
-    width: 400px;
+.my_card {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.my_card_text {
+    font-size: 50px;
+    width: 100%;
+    text-shadow: 1px 1px 1px #BCBCBC;
+}
+
+.rainbow_line {
+    display: flex;
+    width: 100%;
     height: 3px;
-    transform: skew(-12deg) translateX(-50%);
     background: yellow;
     z-index: -1;
     background: linear-gradient(to right, #f69ec4, rgb(255, 255, 0) 100%);
