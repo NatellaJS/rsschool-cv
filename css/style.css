@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.content {
+    margin: 0 50px 0 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    line-height: 20px;
+    background-color: yellow;
+    justify-content: space-evenly;
+    padding-inline-start: 0;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.header img {
+    box-shadow: 2px 2px 10px black;
+    border-radius: 6px;
+}
+
+/* .header h1 {
+    display: inline;
+    position: relative;
+    top: 50px;
+    left: 60px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #BCBCBC;
+} */
+.my_card_flex {
+    display: flex;
+    padding: 16px 50px;
+    flex-direction: column;
+}
+.my_card {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.my_card_text {
+    font-size: 50px;
+    width: 100%;
+    text-shadow: 1px 1px 1px #BCBCBC;
+}
+
+.rainbow_line {
+    display: flex;
+    width: 100%;
+    height: 3px;
+    background: yellow;
+    z-index: -1;
+    background: linear-gradient(to right, #f69ec4, rgb(255, 255, 0) 100%);
+}
+
+h2 {
+    content: "";
+    display: block;
+    width: 48px;
+    padding-top: 2px;
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(to left,  #f69ec4, rgb(255, 255, 0) 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+}
+
+.footer {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 36px;
+    flex-wrap: nowrap;
+}
+.footer img {
+    height: 20px;
+    display: flex;
+}
+
+.footer a {
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+}
